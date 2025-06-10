@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+ font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2ebe3;
+  color: #000;
+  overflow: hidden;
+}
+
+
+#typing-container {
+  font-family: "Old English Text MT", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  
+  text-align: center;
+}
+
+#typed-text {
+  font-family: "Old English Text MT", serif;
+  font-size: 5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#typed-text:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
